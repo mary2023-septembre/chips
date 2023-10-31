@@ -1,0 +1,145 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Slabo 27px', serif;*/
+*{
+  box-sizing: border-box; /*la taille d'une boite prend en consédération le contenu la marge interne(padding) et la bordure */
+}
+body {
+  background-image: url(./img/fond.png);
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+ a {
+  text-decoration: none;
+  color:aliceblue;
+}
+h1,h2,h3,h4,nav{
+  font-family: 'Slabo 27px', serif;
+}
+h1 {
+  font-size: 2.5em;
+  color: #484e58;box-sizing: border-box;
+  text-align: center;
+}
+h5{
+  color:#8acfce; 
+}
+
+h2 {
+  text-align: center;
+  color: #484e58;
+  text-transform: capitalize;
+  font-size: 3.5em;
+}
+h3 {
+  text-align: center;
+  color:#484e58;
+}
+
+/* ___________
+____ HEADER _____________________*/
+
+header {
+  background-color: #34b1b2;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom:3px#2b9aa0 solid  ;
+  border-top:3px#2b9aa0 solid  ;
+  margin-top: 50px;
+  
+}
+header a {
+  padding: 20px;
+  color: aliceblue;
+}
+
+
+
+/* _______________ main_____________________*/
+
+section{
+  padding-right:160px;
+  padding-left:160px;
+}
+main {
+  max-width: 1100px;
+  min-width: 800px;
+  margin: auto;
+}
+
+/*Section recipe*/
+#today {
+  padding: 30px;
+  background-color: #b6dedc;
+  width: 68%;
+  margin-right: 2%;
+}
+
+article {
+  display: inline-block;
+  vertical-align: top;
+  padding:15px ;
+  width: 50%;
+  font-size: 1em;
+}
+article img  {
+  float:left;
+  border-radius: 60px;
+  padding-right:15px ;
+  
+}
+article a {
+  background-color: #34b1b2;
+  padding: 10px;
+  float: right;
+}
+
+aside {
+  padding: 20px;
+  background-color: #34b1b2;
+  width: 30%;
+  font-size: 1em;
+  color: aliceblue;
+  border:3px#2b9aa0 solid  ;
+}
+h3 i 
+{
+  color:#34b1b2;}
+aside img 
+{ margin-top: -55px;
+  margin-right:-55px ;
+  float: right;
+}
+aside,
+#today {
+  display: inline-block;
+  vertical-align: top;
+ 
+  
+}
+
+span {
+  color: #34b1b2;
+}
+aside i 
+{
+margin-right:5px;
+
+
+}
+
+
+/* _______________ footer_____________________*/
+footer {
+  text-align: center;
+}
+footer a 
+{
+  color :#555bdb;
+
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  margin-top: 8px;
+}
